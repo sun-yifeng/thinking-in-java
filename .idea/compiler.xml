@@ -6,9 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ch07-string" />
-        <module name="thinking-in-java" />
+        <module name="ch01-opp" />
+        <module name="ch02-object" />
+        <module name="ch03-operator" />
+        <module name="ch04-access-privilege" />
+        <module name="ch04-control-condition" />
+        <module name="ch05-initial" />
+        <module name="ch06-authority" />
+        <module name="ch07-reuse" />
+        <module name="ch08-polymorphism" />
+        <module name="ch09-interface" />
+        <module name="ch10-inner-class" />
+        <module name="ch11-holding-object" />
+        <module name="ch12-exception" />
+        <module name="ch13-string" />
+        <module name="ch14-reflect" />
+        <module name="ch15-generic" />
+        <module name="ch16-array" />
+        <module name="ch17-collection" />
+        <module name="ch18-io" />
+        <module name="ch19-enum" />
+        <module name="ch20-annotation" />
+        <module name="ch21-concurrent" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch-15generic" target="1.7" />
+      <module name="ch11-holding-object" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

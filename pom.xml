@@ -9,13 +9,37 @@
   <url>http://www.example.com</url>
 
   <groupId>com.sunyf.tij</groupId>
-  <artifactId>tij-parent</artifactId>
+  <artifactId>parent</artifactId>
   <!--parent要加上pom,默认是jar-->
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
 
   <modules>
     <module>ch07-string</module>
+    <module>ch01-opp</module>
+    <module>ch03-operator</module>
+    <module>ch04-control</module>
+    <module>ch05-initial</module>
+    <module>ch06-privilege</module>
+    <module>ch07-reuse</module>
+    <module>ch08-polymorphism</module>
+    <module>ch09-interface</module>
+    <module>ch10-inner-class</module>
+    <module>ch11-collection</module>
+    <module>ch04-control-condition</module>
+    <module>ch06-authority</module>
+    <module>ch13-string</module>
+    <module>ch12-exception</module>
+    <module>ch14-reflect</module>
+    <module>ch-15generic</module>
+    <module>ch15-generic</module>
+    <module>ch16-array</module>
+    <module>ch17-collection</module>
+    <module>ch18-io</module>
+    <module>ch19-enum</module>
+    <module>ch20-annotation</module>
+    <module>ch21-concurrent</module>
+    <module>ch22-applet-swing</module>
   </modules>
 
   <properties>
@@ -25,11 +49,18 @@
   </properties>
 
   <dependencies>
+    <!-- junit包 -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <!-- 需要导入maven私服库中的包javassist-3.22.0-GA.jar -->
+    <dependency>
+      <groupId>org.javassist</groupId>
+      <artifactId>javassist</artifactId>
+      <version>3.22.0-GA</version>
     </dependency>
   </dependencies>
 
