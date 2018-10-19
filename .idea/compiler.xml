@@ -28,11 +28,11 @@
         <module name="ch19-enum" />
         <module name="ch20-annotation" />
         <module name="ch21-concurrent" />
+        <module name="ch22-applet-swing" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ch-15generic" target="1.7" />
-      <module name="ch11-holding-object" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
