@@ -1,8 +1,4 @@
-package sunyifeng;
-
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Test;
+package com.sunyf.tij.ch07;
 
 /**
  * Unit test for simple App.
@@ -12,9 +8,10 @@ public class AppTest
     /**
      * Rigorous Test :-)
      */
-    @Test
+    //@Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+
+        //assertTrue( true );
     }
 }
