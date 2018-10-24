@@ -1,4 +1,4 @@
-package com.sunyf.tij.08;
+package com.sunyf.tij.ch08;
 
 import static org.junit.Assert.assertTrue;
 
