@@ -39,7 +39,7 @@ package com.sunyf.tij.ch08.demo1;
  * @author: Mr.Sun
  * @create: 2018-10-24 11:04
  **/
-public class Main {
+public class Polymorphic {
 
     public static class A {
 
