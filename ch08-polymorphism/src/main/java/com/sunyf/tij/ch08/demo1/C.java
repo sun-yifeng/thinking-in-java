@@ -6,6 +6,6 @@ package com.sunyf.tij.ch08.demo1;
  * @author: Mr.Sun
  * @create: 2018-10-24 11:03
  **/
-public class C extends B {
+public class C extends B { // C继承B
 
 }

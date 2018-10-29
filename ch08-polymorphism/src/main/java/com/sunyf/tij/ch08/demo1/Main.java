@@ -5,8 +5,8 @@ package com.sunyf.tij.ch08.demo1;
  * @description: CSDN 理解java的三大特性之多态
  *
  * 多态机制遵循的原则概括为：
- * 当超类对象的引用变量，引用子类对象时，被引用对象的类型，而不是引用变量的类型，决定了调用谁的成员方法，
- * 但是这个被调用的方法必须是在超类中定义过的，也就是说被子类覆盖的方法，
+ * 当超类对象的引用变量，引用子类对象时，被引用对象的类型(子类)，而不是引用变量的类型（父类），
+ * 决定了调用谁的成员方法，但是这个被调用的方法必须是在超类中定义过的，也就是说被子类覆盖的方法，
  * 但是它仍然要根据继承链中方法调用的优先级来确认方法，该优先级为：
  * this.show(O)、super.show(O)、this.show((super)O)、super.show((super)O)。
  *
@@ -23,8 +23,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        A a1 = new A(); // a1普通类型
-        A a2 = new B(); // a2父类类型的子类对象
+        A a1 = new A(); // a1是A类型的引用
+        A a2 = new B(); // a2是A类型的引用，同时a2是B类型的引用
 
         B b = new B();  // a普通类型
         C c = new C();  // b普通类型
@@ -36,7 +36,7 @@ public class Main {
 
         System.out.println("-----------------");
 
-        System.out.println("4--" + a2.show(b)); //并么有调用b.show()，调用a.show();
+        System.out.println("4--" + a2.show(b)); //输出不是“B and B”;
         System.out.println("5--" + a2.show(c));
         System.out.println("6--" + a2.show(d));
 

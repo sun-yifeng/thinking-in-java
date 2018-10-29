@@ -6,11 +6,9 @@ package com.sunyf.tij.ch08.demo1;
  * @author: Mr.Sun
  * @create: 2018-10-24 11:03
  **/
-public class B extends A{
+public class B extends A{ // B继承A
 
-    public String show(A obj){
-        return ("B and A");
-    }
+    public String show(A obj){ return ("B and A"); }
 
     public String show(B obj){
         return ("B and B");
