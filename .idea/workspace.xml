@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ad8f984-af30-4d18-b5a6-56581e6f1bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/CallableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/TaskWithResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch21-concurrent/target/classes/com/sunyf/tij/ch21/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/TaskWithResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/TaskWithResult.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,17 +76,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="36" />
-          <entry key="java" value="1226" />
+          <entry key="java" value="1257" />
           <entry key="md" value="40" />
-          <entry key="txt" value="21" />
+          <entry key="txt" value="62" />
           <entry key="xml" value="324" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1226" />
+          <entry key="JAVA" value="1257" />
           <entry key="Markdown" value="40" />
-          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="PLAIN_TEXT" value="98" />
           <entry key="XML" value="324" />
         </counts>
       </usages-collector>
@@ -97,11 +94,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/TaskWithResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
                 <element signature="e#300#301#0" expanded="true" />
                 <element signature="e#328#329#0" expanded="true" />
@@ -110,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/CallableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="315">
+              <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#403#419#0" expanded="true" />
@@ -218,8 +215,8 @@
         <option value="$PROJECT_DIR$/ch08-polymorphism/src/main/java/com/sunyf/tij/ch08/demo1/Main.java" />
         <option value="$PROJECT_DIR$/ch08-polymorphism/src/main/java/com/sunyf/tij/ch08/demo1/Polymorphic.java" />
         <option value="$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/TaskWithResult.java" />
-        <option value="$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/TaskWithResult.java" />
         <option value="$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/CallableDemo.java" />
+        <option value="$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/TaskWithResult.java" />
       </list>
     </option>
   </component>
@@ -322,7 +319,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542064282197" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542064433393" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -525,12 +522,20 @@
       <workItem from="1540791768226" duration="6895000" />
       <workItem from="1540829736020" duration="1363000" />
       <workItem from="1540831603384" duration="704000" />
-      <workItem from="1542061204194" duration="2913000" />
+      <workItem from="1542061204194" duration="3087000" />
     </task>
+    <task id="LOCAL-00001" summary="Future接口和Callable接口的配合使用">
+      <created>1542064375724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542064375724</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30046000" />
+    <option name="totallyTimeSpent" value="30220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -545,7 +550,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17522658" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17522658" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -554,7 +559,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.163142" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.14652568" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.31873113" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -571,6 +576,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Future接口和Callable接口的配合使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Future接口和Callable接口的配合使用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ch01-opp/pom.xml">
@@ -820,24 +829,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/TaskWithResult.java">
+    <entry file="file://$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/CallableDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="315">
+          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
           <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#403#419#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/CallableDemo.java">
+    <entry file="file://$PROJECT_DIR$/ch21-concurrent/src/main/java/com/sunyf/tij/ch21/ch2124/TaskWithResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#419#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
           </folding>
         </state>
       </provider>

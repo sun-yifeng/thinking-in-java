@@ -4,7 +4,9 @@ import java.util.concurrent.Callable;
 
 /**
  * @program: thinking-in-java
- * @description: 从任务中返回值
+ * @description:
+ *
+ * 从任务中返回值，Callable接口和Future接口的配合使用
  *
  * 1、如果要线程返回值，实现Callable<>接口, 泛型参数表示call()方法返回的类型；注意么有run()方法；
  * 2、必须用ExecutorService.submit()方法调用任务线程;
