@@ -10,6 +10,7 @@ public class LinkedStack<T> {
 
     //定义节点类（内部类）
     private static class Node<U> {
+
         U item; //当前节点
         Node<U> next; //下一个节点
 
@@ -23,6 +24,7 @@ public class LinkedStack<T> {
             this.next = next;
         }
 
+        //哨兵方法
         boolean end() {
             return item == null && next == null;
         }
