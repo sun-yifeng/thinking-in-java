@@ -2,7 +2,7 @@ package com.sunyf.tij.ch15.ch150202;
 
 /**
  * @program: thinking-in-java
- * @description: 带泛型的堆栈
+ * @description: 带泛型的堆栈(数据结构)
  * @author: sunyf
  * @create: 2018-11-13 08:23
  **/
