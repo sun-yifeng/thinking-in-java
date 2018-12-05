@@ -4,7 +4,7 @@ package com.sunyf.tij.ch15.ch150201;
  * @program: thinking-in-java
  * @description: 三元元组
  * @author: sunyf
- * @create: 2018-11-13 07:51
+ * @create: 2018-11-13 ch07:51
  **/
 public class FourTuple<A, B, C, D> extends ThreeTuple<A, B, C> {
 

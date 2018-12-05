@@ -4,7 +4,7 @@ package com.sunyf.tij.ch15.ch150201;
  * @program: thinking-in-java
  * @description: 元组泛型
  * @author: sunyf
- * @create: 2018-11-13 07:44
+ * @create: 2018-11-13 ch07:44
  **/
 public class TwoTuple<A, B> {
 

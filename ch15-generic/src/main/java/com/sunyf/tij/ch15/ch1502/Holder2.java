@@ -4,7 +4,7 @@ package com.sunyf.tij.ch15.ch1502;
  * @program: thinking-in-java
  * @description: 车主2
  * @author: sunyf
- * @create: 2018-11-13 07:27
+ * @create: 2018-11-13 ch07:27
  **/
 public class Holder2 {
 
